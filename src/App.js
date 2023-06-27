@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       
       <Search />
-      {/* {favorites.length >0 && <Favorites />} */}
+      {favorites.length >0 && <Favorites />}
       <Meals /> 
       {showModal && <Modal />}
       <Footer />
